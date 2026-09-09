@@ -55,6 +55,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className={`${geist.variable} ${geistMono.variable} antialiased`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
+        <meta name="yandex-verification" content="c64d639dc1f65664" />
       </body>
     </html>
   )
